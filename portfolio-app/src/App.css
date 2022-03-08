@@ -2,6 +2,24 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  background-color: #222a30;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Kanit', sans-serif;
+}
+
+.name {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+  text-align: center;
 }
 
 /* Desktop Display */
@@ -14,7 +32,7 @@ body {
   }
 
   header > #title {
-    color: black;
+    color: #FFFFFF;
     text-decoration: none;
   }
 
@@ -29,9 +47,9 @@ body {
   }
 
   #desktop-nav .links {
-    color: black; 
+    color: #FFFFFF; 
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-left: 0.8em;
   }
 
@@ -44,9 +62,51 @@ body {
   }
 
   #icons-container > .icon-links {
-    font-size: 2.7rem;
-    color: black;
+    font-size: 2.8rem;
+    color: #FFFFFF;
     text-decoration: none;
+  }
+
+  #me-container {
+    display: grid;
+    place-items: center;
+    margin-top: 2em;
+  }
+
+  #myself {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+  }
+
+  #home-page > h2, h3, p {
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 2.1rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  #home-page > p {
+    font-size: 1.2rem;
+  }
+
+  #home-buttons {
+    display: grid;
+    place-items: center;
+  }
+
+  #home-buttons > a {
+    border: solid blue 3px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 0.7em;
+    font-size: 20px;
   }
 
 }

@@ -10,9 +10,9 @@ function App() {
 
       <main>
         <section id="home-page">
-          <div id="me">
+          <div id="me-container">
             <a href="App.js">
-              <img src="./images/selfie.jpg"/>
+              <img src="./images/selfie.jpg" id="myself" />
             </a>
           </div>
           <h2 className="name">Alejandro Valerio</h2>
