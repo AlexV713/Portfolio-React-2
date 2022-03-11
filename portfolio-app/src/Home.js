@@ -9,11 +9,13 @@ function Home() {
         <img src="./images/selfie.jpg" id="myself" />
       </Link>
     </div>
-    <h2 className="name">Alejandro Valerio</h2>
-    <h3>Web Developer | UI Designer</h3>
-    <p>A highly creative, artistic developer with a passion for developing websites</p>
-    <div id="home-buttons">
-        <Link to="work">My Work</Link>
+    <div id="home-text">
+      <h2 className="name">Alejandro Valerio</h2>
+      <h3>Web Developer | UI Designer</h3>
+      <p>A highly creative, artistic developer with a passion for developing websites</p>
+      <div id="home-buttons">
+          <Link to="work">My Work</Link>
+      </div>
     </div>
   </section>
   )

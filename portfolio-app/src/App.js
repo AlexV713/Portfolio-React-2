@@ -3,6 +3,7 @@ import Header from './components/Header.js'
 import Home from './Home.js'
 import Work from './Work.js'
 import About from './About.js'
+import Pdx from './components/projects/Pdx.js'
 import Footer from './components/Footer.js'
 
 import './App.css'
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={ <Home /> } />
           <Route path="work" element={ <Work /> } />
           <Route path="about" element={ <About /> } />
+          <Route path="PDX-Handyman-Services-LLC" element={ <Pdx /> } />
         </Routes>
       </main>
       <Footer />

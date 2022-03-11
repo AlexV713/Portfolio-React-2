@@ -70,8 +70,48 @@ h4 {
     font-family: 'Kanit', sans-serif;
 }
 
+#me-container {
+  display: grid;
+  place-items: center;
+  margin-top: 2em;
+}
+
+#myself {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+}
+
+#home-text {
+  text-align: center;
+}
+
 .name {
     font-family: 'Times New Roman', Times, serif;
+}
+
+#work-section > h2 {
+  text-align: center;
+}
+
+#work-section > .boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#work-section .box-links {
+  width: 325px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.thumbnails {
+  height: inherit;
+  width: inherit;
+  border-radius: inherit;
+  border: solid blue 2px;
 }
 
 footer {
@@ -124,22 +164,6 @@ footer {
     text-decoration: none;
   }
 
-  #me-container {
-    display: grid;
-    place-items: center;
-    margin-top: 2em;
-  }
-
-  #myself {
-    height: 400px;
-    width: 400px;
-    border-radius: 50%;
-  }
-
-  #home-content > h2, h3, p {
-    text-align: center;
-  }
-
   h2 {
     font-size: 2.1rem;
   }
@@ -164,6 +188,46 @@ footer {
     color: #FFFFFF;
     padding: 0.7em;
     font-size: 20px;
+  }
+
+  .work-sections {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    grid-gap: 2em;
+    padding: 0 5em 0;
+  }
+
+  .work-sections p {
+    font-size: 1.2rem;
+  }
+
+  .work-sections > .information h2 {
+    margin: 0.7em 0 0.5em;
+    font-size: 1.8rem;
+  }
+
+  .work-sections > .information h3 {
+    font-size: 1.3rem;
+  }
+
+  .work-sections > .information img {
+    height: auto;
+    width: 100%;
+  }
+
+  .project-links {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .work-sections > .information p {
+    padding: 0;
+  }
+
+  .work-sections > .information ol {
+    padding: 0 1.5em 0;
+    font-size: 1.2rem;
   }
 
   #about-content {

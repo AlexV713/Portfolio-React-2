@@ -14,10 +14,10 @@ function header() {
             <Link to="work" className="links">My Work</Link>
             <Link to="about" className="links">About Me</Link>
                 <div id="icons-container">
-                    <a href="https://github.com/AlexV713" className="icon-links" target="_blank">
+                    <a href="https://github.com/AlexV713" className="icon-links" target="_blank" rel="noreferrer">
                         <FaGithub/>&nbsp;
                     </a>
-                    <a href="https://www.linkedin.com/in/alejandro-valerio-9b57b31b0/" className="icon-links" target="_blank">
+                    <a href="https://www.linkedin.com/in/alejandro-valerio-9b57b31b0/" className="icon-links" target="_blank" rel="noreferrer">
                         <FaLinkedin/>
                     </a>
                 </div>
