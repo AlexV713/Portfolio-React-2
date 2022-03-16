@@ -111,10 +111,113 @@ header #mobile-header #mobile-icons #icons-container .icon-links {
   font-size: 1.3rem;
 }
 
+#about-content h2 {
+  text-align: center;
+}
+
+#about-content h3 {
+  text-align: center;
+}
+
+#about-content #about-container #picture {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#about-content #about-container #picture img {
+  width: 300px;
+  height: 300px;
+}
+
+#about-content #technologies-container #technologies-lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#about-content #technologies-container #technologies-lists ul {
+  font-size: 1.3rem;
+  list-style-type: none;
+  padding: 1em;
+  margin: 0;
+}
+
+#about-content #my-story p {
+  font-size: 1.2rem;
+  margin: 0 2em 0;
+  line-height: 1.5;
+}
+
 footer {
   text-align: center;
   font-style: italic;
   font-size: 0.7rem;
   margin-top: 5em;
+}
+
+#html {
+  color: #dd4b25;
+}
+
+.reactjs {
+  color: #5ed3f3;
+}
+
+#css3 {
+  color: #2862e9;
+}
+
+.scss {
+  color: #c76494;
+}
+
+#javascript {
+  color: #edd718;
+}
+
+#jquery {
+  color: #0865a6;
+}
+
+#vuejs {
+  color: #3fb27f;
+}
+
+#php {
+  color: #8892bf;
+}
+
+#mysql {
+  color: #dd8a00;
+}
+
+#adobecc {
+  color: #fa0f00;
+}
+
+#photoshop {
+  color: #31a8ff;
+}
+
+#illustrator {
+  color: #f79500;
+}
+
+#xd {
+  color: #f75eee;
+}
+
+.noColor {
+  color: #ffffff;
 }
 /*# sourceMappingURL=App.css.map */
