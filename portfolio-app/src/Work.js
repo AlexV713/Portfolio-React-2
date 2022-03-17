@@ -15,11 +15,13 @@ function Work() {
           </Link>
           <p className="project-title">PDX Handyman Services LLC</p>
           <p className="tech-used">Technologies Used</p>
-          <ol>
-            <li>React <FaReact className="reactjs"/></li>
-            <li>SASS <FaSass className="scss"/></li>
-            <li>XML <FaCode className="xml"/></li>
-          </ol>
+          <div className="tech-list">
+            <ol>
+              <li>React <FaReact className="reactjs"/></li>
+              <li>SASS <FaSass className="scss"/></li>
+              <li>XML <FaCode className="xml"/></li>
+            </ol>
+          </div>
           <p className="readMore"><Link to="/PDX-Handyman-Services-LLC">Read more...</Link></p>
         </div>
         
@@ -29,14 +31,16 @@ function Work() {
           </Link>
           <p className="project-title">Ace In The Hole Multisport Events</p>
           <p className="tech-used">Technologies Used</p>
-          <ol>
-            <li>HTML5 <FaHtml5 className="html"/></li>
-            <li>CSS3 <FaCss3Alt className="css3"/></li>
-            <li>SASS <FaSass className="scss"/></li>
-            <li>JavaScript <IoLogoJavascript className="javascript"/></li>
-            <li>jQuery <SiJquery className="jquery"/></li>
-            <li>PHP <SiPhp className="php"/></li>
-          </ol>
+          <div className="tech-list">
+            <ol>
+              <li>HTML5 <FaHtml5 className="html"/></li>
+              <li>CSS3 <FaCss3Alt className="css3"/></li>
+              <li>SASS <FaSass className="scss"/></li>
+              <li>JavaScript <IoLogoJavascript className="javascript"/></li>
+              <li>jQuery <SiJquery className="jquery"/></li>
+              <li>PHP <SiPhp className="php"/></li>
+            </ol>
+          </div>
           <p className="readMore"><Link to="/PDX-Handyman-Services-LLC">Read more...</Link></p>
         </div>
         
@@ -46,11 +50,13 @@ function Work() {
           </Link>
           <p className="project-title">PDX Handyman Services LLC</p>
           <p className="tech-used">Technologies Used</p>
-          <ol>
-            <li>HTML5 <FaHtml5 className="html"/></li>
-            <li>CSS3 <FaCss3Alt className="css3"/></li>
-            <li>PHP <SiPhp className="php"/></li>
-          </ol>
+          <div className="tech-list">
+            <ol>
+              <li>HTML5 <FaHtml5 className="html"/></li>
+              <li>CSS3 <FaCss3Alt className="css3"/></li>
+              <li>PHP <SiPhp className="php"/></li>
+            </ol>
+          </div>
           <p className="readMore"><Link to="/PDX-Handyman-Services-LLC">Read more...</Link></p>
         </div>
       </div>

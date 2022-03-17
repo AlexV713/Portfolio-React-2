@@ -156,10 +156,18 @@ header #mobile-header #mobile-icons #icons-container .icon-links {
   text-align: center;
 }
 
-#work-content .boxes-container .box ol {
-  display: -ms-grid;
-  display: grid;
-  place-items: center;
+#work-content .boxes-container .box .tech-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: -1em 0 -1em;
+}
+
+#work-content .boxes-container .box .tech-list ol {
+  text-align: left;
 }
 
 #work-content .boxes-container .box .readMore {

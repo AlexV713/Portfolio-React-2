@@ -124,9 +124,13 @@ header {
             .tech-used {
                 text-align: center; 
             }
-            ol {
-                display: grid;
-                place-items: center;
+            .tech-list {
+                display: flex;
+                justify-content: center;
+                margin: -1em 0 -1em;
+                ol {
+                    text-align: left;
+                }  
             }
             .readMore {
                 text-align: center;
