@@ -16,26 +16,26 @@ function About() {
           <h3>Technologies &#38; Software</h3>
           <div id="technologies-lists">
             <ul>
-              <li>HTML5 <FaHtml5 id="html"/></li>
+              <li>HTML5 <FaHtml5 className="html"/></li>
               <li>JSX <FaReact className="reactjs"/></li>
               <li>XML <FaCode/></li>
-              <li>CSS3 <FaCss3Alt id="css3"/></li>
+              <li>CSS3 <FaCss3Alt className="css3"/></li>
               <li>SCSS <FaSass className="scss"/></li>
               <li>SASS <FaSass className="scss"/></li>
             </ul>
             <ul>
-              <li>JavaScript <IoLogoJavascript id="javascript"/></li>
-              <li>jQuery <SiJquery id="jquery"/></li>
+              <li>JavaScript <IoLogoJavascript className="javascript"/></li>
+              <li>jQuery <SiJquery className="jquery"/></li>
               <li>React.js <FaReact className="reactjs"/></li>
-              <li>Vue.js <SiVuedotjs id="vuejs"/></li>
-              <li>PHP <SiPhp id="php"/></li>
-              <li>MySQL <SiMysql id="mysql"/></li>
+              <li>Vue.js <SiVuedotjs className="vuejs"/></li>
+              <li>PHP <SiPhp className="php"/></li>
+              <li>MySQL <SiMysql className="mysql"/></li>
             </ul>
             <ul>
-              <li>Adobe Creative Cloud <SiAdobecreativecloud id="adobecc"/></li>
-              <li>Adobe Photoshop <SiAdobephotoshop id="photoshop"/></li>
-              <li>Adobe Illustrator <SiAdobeillustrator id="illustrator"/></li>
-              <li>Adobe XD <SiAdobexd id="xd"/></li>
+              <li>Adobe Creative Cloud <SiAdobecreativecloud className="adobecc"/></li>
+              <li>Adobe Photoshop <SiAdobephotoshop className="photoshop"/></li>
+              <li>Adobe Illustrator <SiAdobeillustrator className="illustrator"/></li>
+              <li>Adobe XD <SiAdobexd className="xd"/></li>
               <li>GIMP <SiGimp className="noColor"/></li>
               <li>Figma <FaFigma className="noColor"/></li>
             </ul>

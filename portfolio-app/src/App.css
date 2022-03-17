@@ -111,6 +111,65 @@ header #mobile-header #mobile-icons #icons-container .icon-links {
   font-size: 1.3rem;
 }
 
+#work-content h2 {
+  text-align: center;
+}
+
+#work-content .boxes-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1em;
+}
+
+#work-content .boxes-container .box {
+  border: solid #000000 2px;
+  border-radius: 15px;
+  width: 300px;
+  -webkit-box-shadow: 7px 7px 5px #000000;
+          box-shadow: 7px 7px 5px #000000;
+}
+
+#work-content .boxes-container .box a img {
+  inline-size: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+#work-content .boxes-container .box p {
+  font-size: 1.1rem;
+}
+
+#work-content .boxes-container .box .project-title {
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
+
+#work-content .boxes-container .box .tech-used {
+  text-align: center;
+}
+
+#work-content .boxes-container .box ol {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#work-content .boxes-container .box .readMore {
+  text-align: center;
+}
+
+#work-content .boxes-container .box .readMore a {
+  color: white;
+}
+
 #about-content h2 {
   text-align: center;
 }
@@ -163,9 +222,10 @@ footer {
   font-style: italic;
   font-size: 0.7rem;
   margin-top: 5em;
+  margin-bottom: 0.5em;
 }
 
-#html {
+.html {
   color: #dd4b25;
 }
 
@@ -173,7 +233,7 @@ footer {
   color: #5ed3f3;
 }
 
-#css3 {
+.css3 {
   color: #2862e9;
 }
 
@@ -181,39 +241,39 @@ footer {
   color: #c76494;
 }
 
-#javascript {
+.javascript {
   color: #edd718;
 }
 
-#jquery {
+.jquery {
   color: #0865a6;
 }
 
-#vuejs {
+.vuejs {
   color: #3fb27f;
 }
 
-#php {
+.php {
   color: #8892bf;
 }
 
-#mysql {
+.mysql {
   color: #dd8a00;
 }
 
-#adobecc {
+.adobecc {
   color: #fa0f00;
 }
 
-#photoshop {
+.photoshop {
   color: #31a8ff;
 }
 
-#illustrator {
+.illustrator {
   color: #f79500;
 }
 
-#xd {
+.xd {
   color: #f75eee;
 }
 
