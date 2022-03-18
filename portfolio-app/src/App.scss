@@ -143,42 +143,43 @@ header {
 }
 
 .work-sections {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    h2,
-    h3 {
-        text-align: center;
-    }
+    text-align: center;
     .information {
-        display: grid;
-        place-items: center;
+        h2 {
+            margin: 0 1em 0.5em;
+        }
         img {
-            width: 330px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
             height: auto;
         }
         .project-links {
             display: flex;
-            flex-direction: row;
-            padding: 0.5em 0 0.5em;
-            gap: 8em;
+            justify-content: space-between;
+            align-items: center;
+            margin: 1em 1.2em 0;
             .links {
                 color: white;
             }
         }
+    }
+    .information {
         p {
-            text-align: left;
+            padding: 0 1em 0;
             line-height: 1.5;
             font-size: 1.2rem;
-            margin: 0;
-            padding: 0 1em 0;
         }
-        ol,
-        ul {
-            font-size: 1.2rem;
+        ol {
+            list-style: circle;
+            list-style-position: inside;
             margin: 0;
+            padding: 0 1.5em 0;
+            li {
+                line-height: 1.5;
+                font-size: 1.2rem;
+            }
         }
     }
 }
@@ -355,6 +356,47 @@ footer {
             margin: 0 7em 0;
             .box {
                 font-size: 1.1rem;
+            }
+        }
+    }
+
+    .work-sections {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        grid-gap: 2em;
+        padding: 0 5em 0;
+        p {
+            font-size: 1.2rem;
+            text-align: left;
+        }
+        h2,
+        h3,
+        p,
+        ol {
+            text-align: left;
+        }
+        .information {
+            h2 {
+                margin: 0.7em 0 0.5em;
+            }
+            h3 {
+                font-size: 1.3rem;
+            }
+            p {
+                padding: 0;
+            }
+            img {
+                height: auto;
+                width: 100%;
+            }
+            .project-links,
+            .links,
+            .links {
+                padding: 0;
+            }
+            ol {
+                padding: 0;
             }
         }
     }
