@@ -8,9 +8,10 @@ function Pdx() {
             <h2>PDX Handyman Services LLC</h2>
             <img src="../images/pdx-react.jpg" alt="PDX Handyman Services LLC"/>
             <div className="project-links">
-                <p className="live-link"><a href="https://pdxhandymanservicesllc.com/" target="_blank" rel="noreferrer">Live Preview <FaExternalLinkAlt /></a></p>
-                <p className="repository-link"><a href="https://github.com/AlexV713/PDX-React" target="_blank" rel="noreferrer">Repository <FaGithub /></a></p>
+                <a href="https://pdxhandymanservicesllc.com/" target="_blank" rel="noreferrer" className="links">Live Preview <FaExternalLinkAlt /></a>
+                <a href="https://github.com/AlexV713/PDX-React" target="_blank" rel="noreferrer"className="links">Repository <FaGithub /></a>
             </div>
+            <h3>About it</h3>
             <p>Business website for a renovator that highlights his previous contracts and summarizes his business. The business had an old website for a few years, but it didn’t meet the business’s standards. I created a responsive React.js website with fully custom CSS using SASS and created the wireframes and mockups in Adobe XD.</p>
             <h3 className="project-headings">Technologies Used</h3>
             <ol>

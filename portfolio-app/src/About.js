@@ -6,11 +6,13 @@ import { SiJquery, SiVuedotjs, SiPhp, SiMysql, SiAdobecreativecloud, SiAdobephot
 function About() {
   return (
     <section id="about-content">
-      <h2>My Work</h2>
+      <h2>Alejandro Valerio</h2>
       <div id="about-container">
         <div id="picture">
           <img src="./images/me.jpg" alt="web developer, ui designer, 3d artist, alejandro valerio"/>
         </div>
+
+        <h3>Web Developer | UI Designer | 3D Artist</h3>
 
         <div id="technologies-container">
           <h3>Technologies &#38; Software</h3>
@@ -36,8 +38,8 @@ function About() {
               <li>Adobe Photoshop <SiAdobephotoshop className="photoshop"/></li>
               <li>Adobe Illustrator <SiAdobeillustrator className="illustrator"/></li>
               <li>Adobe XD <SiAdobexd className="xd"/></li>
-              <li>GIMP <SiGimp className="noColor"/></li>
               <li>Figma <FaFigma className="noColor"/></li>
+              <li>GIMP <SiGimp className="noColor"/></li>
             </ul>
           </div>
         </div>

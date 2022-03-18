@@ -4,6 +4,8 @@ import Home from './Home.js'
 import Work from './Work.js'
 import About from './About.js'
 import Pdx from './components/projects/Pdx.js'
+import Ace from './components/projects/Ace.js'
+import Pht from './components/projects/Pht.js'
 import Footer from './components/Footer.js'
 
 import './App.css'
@@ -19,6 +21,8 @@ function App() {
           <Route path="work" element={ <Work /> } />
           <Route path="about" element={ <About /> } />
           <Route path="PDX-Handyman-Services-LLC" element={ <Pdx /> } />
+          <Route path="Ace-in-the-Hole-Multisport-Events" element={ <Ace /> } />
+          <Route path="Portland-Historical-Tours" element={ <Pht /> } />
         </Routes>
       </main>
       <Footer />

@@ -35,9 +35,9 @@ function Header() {
             </div>
             <nav id="mobile-navigation" style={{display: visible ? 'block' : 'none'}}>
                 <ul id="links-list">
-                    <li><Link to="/" className="links">Home</Link></li>
-                    <li><Link to="work" className="links">My Work</Link></li>
-                    <li><Link to="about" className="links">About Me</Link></li>
+                    <li><Link to="/" className="links" onClick={() => setVisible(!visible)}>Home</Link></li>
+                    <li><Link to="work" className="links" onClick={() => setVisible(!visible)}>My Work</Link></li>
+                    <li><Link to="about" className="links" onClick={() => setVisible(!visible)}>About Me</Link></li>
                 </ul>
             </nav>
             <div id="mobile-icons" style={{display: visible ? 'block' : 'none'}}>

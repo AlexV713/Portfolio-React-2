@@ -26,7 +26,7 @@ function Work() {
         </div>
         
         <div className="box">
-          <Link to="">
+          <Link to="/Ace-in-the-Hole-Multisport-Events">
             <img src="./images/aith.jpg" className="thumbnails" alt="PDX Handyman Services LLC"/>
           </Link>
           <p className="project-title">Ace In The Hole Multisport Events</p>
@@ -45,7 +45,7 @@ function Work() {
         </div>
         
         <div className="box">
-          <Link to="">
+          <Link to="/Portland-Historical-Tours">
             <img src="./images/pht.jpg" className="thumbnails" alt="PDX Handyman Services LLC"/>
           </Link>
           <p className="project-title">PDX Handyman Services LLC</p>
