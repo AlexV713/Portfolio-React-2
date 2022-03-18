@@ -286,3 +286,51 @@ footer {
 .noColor {
     color: #ffffff;
 }
+
+/* Desktop Display */
+@media only screen and (min-width: 1025px) {
+    header {
+        #desktop-nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-bottom: solid black 1px;
+            #title {
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+            #title:hover {
+                opacity: 0.5;
+            }
+            #desktop-nav-links {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                .links {
+                    color: #FFFFFF;
+                    text-decoration: none;
+                    font-size: 1.4rem;
+                    margin-left: 0.8em;
+                }
+                .links:active {
+                    opacity: 0.5;
+                }
+                #icons-container {
+                    margin-left: 1em;
+                    .icon-links {
+                        font-size: 2.8rem;
+                        color: #FFFFFF;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        #mobile-header {
+            display: none;
+            #title {
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+        }
+    }
+}

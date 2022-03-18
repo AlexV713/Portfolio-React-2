@@ -11,18 +11,18 @@ function Header() {
                 <h1>Alejandro Valerio</h1>
             </Link>
 
-            <nav id="desktop-nav">
+            <nav id="desktop-nav-links">
                 <Link to="/" className="links">Home</Link>
                 <Link to="work" className="links">My Work</Link>
                 <Link to="about" className="links">About Me</Link>
-                    <div id="icons-container">
-                        <a href="https://github.com/AlexV713" className="icon-links" target="_blank" rel="noreferrer">
-                            <FaGithub/>&nbsp;
-                        </a>
-                        <a href="https://www.linkedin.com/in/alejandro-valerio-9b57b31b0/" className="icon-links" target="_blank" rel="noreferrer">
-                            <FaLinkedin/>
-                        </a>
-                    </div>
+                <div id="icons-container">
+                    <a href="https://github.com/AlexV713" className="icon-links" target="_blank" rel="noreferrer">
+                        <FaGithub/>&nbsp;
+                    </a>
+                    <a href="https://www.linkedin.com/in/alejandro-valerio-9b57b31b0/" className="icon-links" target="_blank" rel="noreferrer">
+                        <FaLinkedin/>
+                    </a>
+                </div>
             </nav>
         </div>
 
