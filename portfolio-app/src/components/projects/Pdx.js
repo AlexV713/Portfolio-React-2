@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaExternalLinkAlt, FaGithub } from "react-icons/fa"
+import { FaHtml5, FaReact, FaCss3Alt, FaSass, FaCode, FaExternalLinkAlt, FaGithub } from "react-icons/fa"
 
 function Pdx() {
   return (
@@ -15,11 +15,11 @@ function Pdx() {
             <p>Business website for a renovator that highlights his previous contracts and summarizes his business. The business had an old website for a few years, but it didn’t meet the business’s standards. I created a responsive React.js website with fully custom CSS using SASS and created the wireframes and mockups in Adobe XD.</p>
             <h3 className="project-headings">Technologies Used</h3>
             <ol>
-                <li>React.js</li>
-                <li>JavaScript</li>
-                <li>CSS3</li>
-                <li>SASS</li>
-                <li>HTML</li>
+                <li>React.js <FaReact className="reactjs"/></li>
+                <li>HTML5 <FaHtml5 className="html"/></li>
+                 <li>XML <FaCode/></li>
+                <li>CSS3 <FaCss3Alt className="css3"/></li>
+                <li>SASS <FaSass className="scss"/></li>
             </ol>
         </div>
         <div className="information">

@@ -18,8 +18,8 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={ <Home /> } />
-          <Route path="work" element={ <Work /> } />
-          <Route path="about" element={ <About /> } />
+          <Route path="My-Work" element={ <Work /> } />
+          <Route path="About-Me" element={ <About /> } />
           <Route path="PDX-Handyman-Services-LLC" element={ <Pdx /> } />
           <Route path="Ace-in-the-Hole-Multisport-Events" element={ <Ace /> } />
           <Route path="Portland-Historical-Tours" element={ <Pht /> } />

@@ -1,5 +1,7 @@
 import React from 'react'
-import { FaExternalLinkAlt, FaGithub } from "react-icons/fa"
+import { FaHtml5, FaCss3Alt, FaSass, FaExternalLinkAlt, FaGithub } from "react-icons/fa"
+import { IoLogoJavascript } from "react-icons/io5"
+import { SiJquery, SiPhp, SiMysql } from "react-icons/si";
 
 function Ace() {
   return (
@@ -14,12 +16,13 @@ function Ace() {
         <p>Website for fictional organization that hosts multi-sport events every summer. I created sign-up forms, live social media feeds and a fully functional MySQL database. I built this website with PHP, JavaScript, and created the wireframes and mockups in Adobe XD.</p>
         <h3 class="project-headings">Technologies Used</h3>
         <ol>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>SASS</li>
-            <li>JavaScript</li>
-            <li>PHP</li>
-            <li>MySQL</li>
+            <li>HTML5 <FaHtml5 className="html"/></li>
+            <li>CSS3 <FaCss3Alt className="css3"/></li>
+            <li>SASS <FaSass className="scss"/></li>
+            <li>JavaScript <IoLogoJavascript className="javascript"/></li>
+            <li>jQuery <SiJquery className="jquery"/></li>
+            <li>PHP <SiPhp className="php"/></li>
+            <li>MySQL <SiMysql className="mysql"/></li>
         </ol>
     </div>
     <div className="information">

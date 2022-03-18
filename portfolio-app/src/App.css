@@ -392,10 +392,6 @@ footer {
   header #mobile-header {
     display: none;
   }
-  header #mobile-header #title {
-    color: #FFFFFF;
-    text-decoration: none;
-  }
   #home-content #me-container a #myself {
     height: 350px;
     width: 350px;
@@ -453,10 +449,10 @@ footer {
     height: auto;
     width: 100%;
   }
-  .work-sections .information .project-links,
-  .work-sections .information .links,
-  .work-sections .information .links {
-    padding: 0;
+  .work-sections .information .project-links {
+    padding: 1em 0 1em;
+    margin: 0;
+    font-size: 1.2rem;
   }
   .work-sections .information ol {
     padding: 0;
@@ -476,6 +472,60 @@ footer {
   }
   #about-content #my-story {
     margin: 0 6em 0;
+  }
+}
+
+/* 1440p Desktop Display */
+@media only screen and (min-width: 1400px) {
+  #home-content #me-container a #myself {
+    height: 400px;
+    width: 400px;
+  }
+  #work-content .boxes-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    gap: 1em;
+    margin: 0 30em 0;
+  }
+  #work-content .boxes-container .box {
+    font-size: 1.1rem;
+  }
+  .work-sections {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    grid-gap: 2em;
+    padding: 0 10em 0;
+  }
+  #about-content #about-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin: 0 21em 2em;
+    gap: 1em;
+  }
+  #about-content #my-story {
+    margin: 0 15em 0;
   }
 }
 /*# sourceMappingURL=App.css.map */

@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaExternalLinkAlt, FaGithub } from "react-icons/fa"
+import { FaHtml5, FaCss3Alt, FaExternalLinkAlt, FaGithub } from "react-icons/fa"
+import { SiPhp} from "react-icons/si";
 
 function Pht() {
   return (
@@ -14,9 +15,9 @@ function Pht() {
             <p>The website is being hosted on my student hosting server. This is the first static website I've ever created with HTML5, CSS3, and PHP!</p>
             <h3 className="project-headings">Technologies Used</h3>
             <ol>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>PHP</li>
+                <li>HTML5 <FaHtml5 className="html"/></li>
+                <li>CSS3 <FaCss3Alt className="css3"/></li>
+                <li>PHP <SiPhp className="php"/></li>
             </ol>
         </div>
         <div className="information">

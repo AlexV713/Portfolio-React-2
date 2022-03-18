@@ -328,10 +328,6 @@ footer {
         }
         #mobile-header {
             display: none;
-            #title {
-                color: #FFFFFF;
-                text-decoration: none;
-            }
         }
     }
 
@@ -390,10 +386,10 @@ footer {
                 height: auto;
                 width: 100%;
             }
-            .project-links,
-            .links,
-            .links {
-                padding: 0;
+            .project-links {
+                padding: 1em 0 1em;
+                margin: 0;
+                font-size: 1.2rem;
             }
             ol {
                 padding: 0;
@@ -411,6 +407,55 @@ footer {
         }
         #my-story {
             margin: 0 6em 0;
+        }
+    }
+}
+
+/* 1440p Desktop Display */
+@media only screen and (min-width: 1400px)  {
+    #home-content {
+        #me-container {
+            a {
+                #myself {
+                    height: 400px;
+                    width: 400px;
+                }
+            }
+        }
+    }
+
+    #work-content {
+        .boxes-container {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            align-items: baseline;
+            gap: 1em;
+            margin: 0 30em 0;
+            .box {
+                font-size: 1.1rem;
+            }
+        }
+    }
+
+    .work-sections {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        grid-gap: 2em;
+        padding: 0 10em 0;
+    }
+
+    #about-content {
+        #about-container {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            margin: 0 21em 2em;
+            gap: 1em;
+        }
+        #my-story {
+            margin: 0 15em 0;
         }
     }
 }

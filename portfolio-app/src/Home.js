@@ -5,9 +5,9 @@ function Home() {
   return (
     <section id="home-content">
     <div id="me-container">
-      <Link to="/">
+      <a href="https://www.linkedin.com/in/alejandro-valerio-9b57b31b0/" target="_blank" rel="noreferrer">
         <img src="./images/selfie.jpg" id="myself" alt="Alejandro Valerio a web developer and UI designer who is also a 3D artist."/>
-      </Link>
+      </a>
     </div>
     <div id="home-text">
       <h2>Alejandro Valerio</h2>
