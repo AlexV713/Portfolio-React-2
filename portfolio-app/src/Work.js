@@ -14,7 +14,7 @@ function Work() {
             <img src="./images/pdx-react.jpg" className="thumbnails" alt="PDX Handyman Services LLC"/>
           </Link>
           <p className="project-title">PDX Handyman Services LLC</p>
-          <p className="tech-used">Technologies Used</p>
+          <p className="tech-used">Technologies Used:</p>
           <div className="tech-list">
             <ol>
               <li>React <FaReact className="reactjs"/></li>
@@ -30,7 +30,7 @@ function Work() {
             <img src="./images/aith.jpg" className="thumbnails" alt="PDX Handyman Services LLC"/>
           </Link>
           <p className="project-title">Ace In The Hole Multisport Events</p>
-          <p className="tech-used">Technologies Used</p>
+          <p className="tech-used">Technologies Used:</p>
           <div className="tech-list">
             <ol>
               <li>HTML5 <FaHtml5 className="html"/></li>
@@ -49,7 +49,7 @@ function Work() {
             <img src="./images/pht.jpg" className="thumbnails" alt="PDX Handyman Services LLC"/>
           </Link>
           <p className="project-title">PDX Handyman Services LLC</p>
-          <p className="tech-used">Technologies Used</p>
+          <p className="tech-used">Technologies Used:</p>
           <div className="tech-list">
             <ol>
               <li>HTML5 <FaHtml5 className="html"/></li>

@@ -10,9 +10,8 @@ function About() {
       <div id="about-container">
         <div id="picture">
           <img src="./images/me.jpg" alt="web developer, ui designer, 3d artist, alejandro valerio"/>
+          <h3>Web developer | UI Designer | 3D Artist</h3>
         </div>
-
-        <h3>Web Developer | UI Designer | 3D Artist</h3>
 
         <div id="technologies-container">
           <h3>Technologies &#38; Software</h3>
