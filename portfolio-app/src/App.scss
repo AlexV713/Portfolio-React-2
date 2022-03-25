@@ -288,6 +288,112 @@ footer {
     color: #ffffff;
 }
 
+/* Tablet Display */
+@media only screen and (min-width: 480px) {
+    header {
+        #desktop-nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-bottom: solid black 1px;
+            #title {
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+            #title:hover {
+                opacity: 0.5;
+            }
+            #desktop-nav-links {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                .links {
+                    color: #FFFFFF;
+                    text-decoration: none;
+                    font-size: 1.4rem;
+                    margin-left: 0.8em;
+                }
+                .links:active {
+                    opacity: 0.5;
+                }
+                #icons-container {
+                    margin-left: 1em;
+                    .icon-links {
+                        font-size: 2.8rem;
+                        color: #FFFFFF;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        #mobile-header {
+            display: none;
+        }
+    }
+    #home-content {
+        #me-container {
+            a {
+                #myself {
+                    height: 350px;
+                    width: 350px;
+                }
+            }
+        }
+    }
+    #work-content {
+        .boxes-container {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            align-items: baseline;
+            gap: 1em;
+            margin: 0 3em 0;
+            .box {
+                font-size: 1.1rem;
+            }
+        }
+    }
+    .work-sections {
+        text-align: center;
+        .information {
+            h2 {
+                margin: 0 1em 0.5em;
+            }
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 90%;
+                height: auto;
+            }
+            .project-links {
+                text-align: center;
+                padding: 0 1.2em 0;
+                .links {
+                    color: white;
+                }
+            }
+        }
+        .information {
+            p {
+                padding: 0 1em 0;
+                line-height: 1.5;
+                font-size: 1.2rem;
+            }
+            ol {
+                list-style: circle;
+                list-style-position: inside;
+                margin: 0;
+                padding: 0 1.5em 0;
+                li {
+                    line-height: 1.5;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}
+
 /* Desktop Display */
 @media only screen and (min-width: 1025px) {
     header {

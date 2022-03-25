@@ -340,6 +340,118 @@ footer {
   color: #ffffff;
 }
 
+/* Tablet Display */
+@media only screen and (min-width: 480px) {
+  header #desktop-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: solid black 1px;
+  }
+  header #desktop-nav #title {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  header #desktop-nav #title:hover {
+    opacity: 0.5;
+  }
+  header #desktop-nav #desktop-nav-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header #desktop-nav #desktop-nav-links .links {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.4rem;
+    margin-left: 0.8em;
+  }
+  header #desktop-nav #desktop-nav-links .links:active {
+    opacity: 0.5;
+  }
+  header #desktop-nav #desktop-nav-links #icons-container {
+    margin-left: 1em;
+  }
+  header #desktop-nav #desktop-nav-links #icons-container .icon-links {
+    font-size: 2.8rem;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  header #mobile-header {
+    display: none;
+  }
+  #home-content #me-container a #myself {
+    height: 350px;
+    width: 350px;
+  }
+  #work-content .boxes-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    gap: 1em;
+    margin: 0 3em 0;
+  }
+  #work-content .boxes-container .box {
+    font-size: 1.1rem;
+  }
+  .work-sections {
+    text-align: center;
+  }
+  .work-sections .information h2 {
+    margin: 0 1em 0.5em;
+  }
+  .work-sections .information img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: auto;
+  }
+  .work-sections .information .project-links {
+    text-align: center;
+    padding: 0 1.2em 0;
+  }
+  .work-sections .information .project-links .links {
+    color: white;
+  }
+  .work-sections .information p {
+    padding: 0 1em 0;
+    line-height: 1.5;
+    font-size: 1.2rem;
+  }
+  .work-sections .information ol {
+    list-style: circle;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0 1.5em 0;
+  }
+  .work-sections .information ol li {
+    line-height: 1.5;
+    font-size: 1.2rem;
+  }
+}
+
 /* Desktop Display */
 @media only screen and (min-width: 1025px) {
   header #desktop-nav {

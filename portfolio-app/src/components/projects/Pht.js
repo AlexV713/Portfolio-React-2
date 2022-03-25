@@ -9,7 +9,7 @@ function Pht() {
             <h2>Portland Historical Tours</h2>
             <img src="../images/pht.jpg" alt="This is a dictionary web app."/>
             <div className="project-links">
-                <a href="http://alejandrovalerio.com/projects/Portland-Historical-Tours" target="_blank" rel="noreferrer" className="links">Live Preview <FaExternalLinkAlt /></a>
+                <a href="#" target="_blank" rel="noreferrer" className="links">Live Preview <FaExternalLinkAlt /></a>
                 <a href="https://github.com/AlexV713/portland-historical-tours" target="_blank" rel="noreferrer" className="links">Repository <FaGithub /></a>
             </div>
             <p>The website is being hosted on my student hosting server. This is the first static website I've ever created with HTML5, CSS3, and PHP!</p>
