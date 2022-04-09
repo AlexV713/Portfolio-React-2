@@ -10,7 +10,7 @@ function Ace() {
         <h2>Ace in The Hole Multisport Events</h2>
         <img src="../images/aith.jpg" alt="This is a dictionary web app."/>
         <div className="project-links">
-            <a href="http://alejandrovalerio.me/Ace-in-the-Hole-Multisport-Events/projects/ace-in-the-hole" target="_blank" rel="noreferrer" className="links">Live Preview <FaExternalLinkAlt /></a>
+            <a href="http://alejandrovalerio.me/projects/ace-in-the-hole" target="_blank" rel="noreferrer" className="links">Live Preview <FaExternalLinkAlt /></a>
             <a href="https://github.com/AlexV713/Ace-in-the-Hole-Multisport-events" target="_blank" rel="noreferrer" className="links">Repository <FaGithub /></a>
         </div>
         <p>Website for fictional organization that hosts multi-sport events every summer. I created sign-up forms, live social media feeds and a fully functional MySQL database. I built this website with PHP, JavaScript, and created the wireframes and mockups in Adobe XD.</p>

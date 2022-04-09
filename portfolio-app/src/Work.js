@@ -44,21 +44,6 @@ function Work() {
           <p className="readMore"><Link to="/PDX-Handyman-Services-LLC">Read more...</Link></p>
         </div>
         
-        <div className="box">
-          <Link to="/Portland-Historical-Tours">
-            <img src="./images/pht.jpg" className="thumbnails" alt="PDX Handyman Services LLC"/>
-          </Link>
-          <p className="project-title">PDX Handyman Services LLC</p>
-          <p className="tech-used">Technologies Used:</p>
-          <div className="tech-list">
-            <ol>
-              <li>HTML5 <FaHtml5 className="html"/></li>
-              <li>CSS3 <FaCss3Alt className="css3"/></li>
-              <li>PHP <SiPhp className="php"/></li>
-            </ol>
-          </div>
-          <p className="readMore"><Link to="/PDX-Handyman-Services-LLC">Read more...</Link></p>
-        </div>
       </div>
     </section>
   )
