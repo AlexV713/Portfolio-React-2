@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+
+        <loc>http://alejandrovalerio.me/</loc>
+
+        <lastmod>2022-04-11</lastmod>
+
+        <changefreq>monthly</changefreq>
+
+        <priority>1.0</priority>
+
+    </url>
+
+    <url>
+
+        <loc>http://alejandrovalerio.me/My-Work</loc>
+
+        <lastmod>2022-04-11</lastmod>
+
+        <changefreq>monthly</changefreq>
+
+        <priority>0.8</priority>
+
+    </url>
+
+    <url>
+
+        <loc>http://alejandrovalerio.me/About-Me</loc>
+
+        <lastmod>2022-04-11</lastmod>
+
+        <changefreq>monthly</changefreq>
+
+        <priority>0.8</priority>
+
+    </url>
+
+    <url>
+
+        <loc>http://alejandrovalerio.me/PDX-Handyman-Services-LLC</loc>
+
+        <lastmod>2022-04-11</lastmod>
+
+        <changefreq>monthly</changefreq>
+
+        <priority>0.8</priority>
+
+    </url>
+
+    <url>
+
+        <loc>http://alejandrovalerio.me/Ace-in-the-Hole-Multisport-Events</loc>
+
+        <lastmod>2022-04-11</lastmod>
+
+        <changefreq>monthly</changefreq>
+
+        <priority>0.8</priority>
+
+    </url>
+
+</urlset>

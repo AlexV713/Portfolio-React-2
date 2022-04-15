@@ -27,7 +27,7 @@ function Ace() {
     </div>
     <div className="information">
         <h3 className="project-headings">My Role</h3>
-        <p>I created this website with HTML5 and PHP. I also created a database in phpMyAdmin with MySQL to store all the register page submissions. On Adobe XD, I created the wireframes and mockups. I added the text from the document that was given to us by the professor, styled the website to be responsive to all devices and browsers, created the forms, database tables, and added the social media feeds.</p>
+        <p>I created this website with HTML5 and PHP. I also created a database in phpMyAdmin with MySQL to store all the form submissions. On Adobe XD, I created the wireframes and mockups. I added the text from the document that was given to us by the professor, styled the website to be responsive to all devices and browsers, created the forms, database tables, and added the social media feeds.</p>
         <h3 className="project-headings">Project Difficulties</h3>
         <p>The database wasn’t receiving the form submissions, and it wasn’t connecting.</p>
         <h3 className="project-headings">The Solution</h3>

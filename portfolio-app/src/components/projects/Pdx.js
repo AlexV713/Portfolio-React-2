@@ -16,6 +16,7 @@ function Pdx() {
             <h3 className="project-headings">Technologies Used</h3>
             <ol>
                 <li>React.js <FaReact className="reactjs"/></li>
+                <li>JSX <FaReact className="reactjs"/></li>
                 <li>HTML5 <FaHtml5 className="html"/></li>
                  <li>XML <FaCode/></li>
                 <li>CSS3 <FaCss3Alt className="css3"/></li>
@@ -24,7 +25,7 @@ function Pdx() {
         </div>
         <div className="information">
             <h3 className="project-headings">My Role</h3>
-            <p>I used React.js to create this website. I used YARN package manager and react router. On Adobe XD I designed the wireframes and mockups. In Photoshop, I edited most of the images by increasing their contrast, brightness, and by removing people or objects. I added the text that he wanted me to add, the images, and the videos. I suggested the photo slide show and where to place his business card.</p>
+            <p>I used React.js to create this website with YARN package manager and react router for the navigation. On Adobe XD I designed the wireframes and mockups. In Photoshop, I edited most of the images by increasing their contrast, brightness, and removing people or objects. I added the text that he wanted me to add, the images, and the videos. I suggested the photo slide show and where to place his business card.</p>
 
             <h3 className="project-headings">Project Difficulties</h3>
             <p>I was having trouble displaying the home page content to be side by side.</p>

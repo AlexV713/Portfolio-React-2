@@ -133,8 +133,8 @@ header #mobile-header #mobile-icons #icons-container .icon-links {
   border: solid #000000 2px;
   border-radius: 15px;
   width: 300px;
-  -webkit-box-shadow: 7px 7px 5px #000000;
-          box-shadow: 7px 7px 5px #000000;
+  -webkit-box-shadow: 7px 7px 5px #000000d8;
+          box-shadow: 7px 7px 5px #000000d8;
 }
 
 #work-content .boxes-container .box a img {
@@ -522,7 +522,7 @@ footer {
         -ms-flex-align: baseline;
             align-items: baseline;
     gap: 1em;
-    margin: 0 7em 0;
+    margin: 0 10em 0;
   }
   #work-content .boxes-container .box {
     font-size: 1.1rem;
