@@ -13,8 +13,8 @@ function Header() {
 
             <nav id="desktop-nav-links">
                 <Link to="/" className="links">Home</Link>
-                <Link to="My-Work" className="links">My Work</Link>
-                <Link to="About-Me" className="links">About Me</Link>
+                <Link to="work" className="links">My Work</Link>
+                <Link to="about" className="links">About Me</Link>
                 <div id="icons-container">
                     <a href="https://github.com/AlexV713" className="icon-links" target="_blank" rel="noreferrer">
                         <FaGithub/>&nbsp;
@@ -36,8 +36,8 @@ function Header() {
             <nav id="mobile-navigation" style={{display: visible ? 'block' : 'none'}}>
                 <ul id="links-list">
                     <li><Link to="/" className="links" onClick={() => setVisible(!visible)}>Home</Link></li>
-                    <li><Link to="My-Work" className="links" onClick={() => setVisible(!visible)}>My Work</Link></li>
-                    <li><Link to="About-Me" className="links" onClick={() => setVisible(!visible)}>About Me</Link></li>
+                    <li><Link to="work" className="links" onClick={() => setVisible(!visible)}>My Work</Link></li>
+                    <li><Link to="about" className="links" onClick={() => setVisible(!visible)}>About Me</Link></li>
                 </ul>
             </nav>
             <div id="mobile-icons" style={{display: visible ? 'block' : 'none'}}>

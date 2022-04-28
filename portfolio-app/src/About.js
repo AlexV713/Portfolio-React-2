@@ -4,13 +4,12 @@ import { IoLogoJavascript } from "react-icons/io5"
 import { SiJquery, SiVuedotjs, SiPhp, SiMysql, SiAdobecreativecloud, SiAdobephotoshop, SiAdobeillustrator, SiAdobexd, SiGimp } from "react-icons/si";
 
 function About() {
-  const [visible, setVisible] = React.useState(false);
   return (
     <section id="about-content">
       <h2>Alejandro Valerio</h2>
       <div id="about-container">
         <div id="picture">
-          <img src="./images/me.jpg" alt="web developer, ui designer, 3d artist, alejandro valerio"/>
+          <img src="./images/alejandro-valerio.jpg" alt="web developer, ui designer, 3d artist, alejandro valerio"/>
           <h3>Web developer | UI Designer | 3D Artist</h3>
         </div>
 
